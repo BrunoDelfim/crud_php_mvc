@@ -63,6 +63,7 @@
 <body>
     <header>
         <h1>Título do site</h1>
+        <p><a href="/crudmvc">Página inicial</a></p>
         <hr>
     </header>
     <main>
