@@ -21,7 +21,7 @@
                     <button>Editar</button>
                 </form>
                 <form method="POST" action="usuario/<?= $usuario['id'] ?>/excluir">
-                    <button>Excluir</button>
+                    <button onclick="return confirm('Tem certeza que deseja realizar a exclusão?')">Excluir</button>
                 </form>
             </td>
         </tr>
